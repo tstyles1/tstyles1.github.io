@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New User</title>
+  </head>
+  <body>
+    <h1>New User</h1>
+    <form>
+      <label for="firstName">First Name *</label>
+      <input type="text" id="firstName" name="firstName" required minlength="1" maxlength="32"><br><br>
+      
+      <label for="lastName">Last Name *</label>
+      <input type="text" id="lastName" name="lastName" required minlength="1" maxlength="32"><br><br>
+      
+      <label for="password">Password *</label>
+      <input type="password" id="password" name="password" required><br><br>
+      
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="telephoneNumber">Telephone Number</label>
+      <input type="tel" id="telephoneNumber" name="telephoneNumber"><br><br>
+      
+      <label for="homepageUrl">URL to a Home Page</label>
+      <input type="url" id="homepageUrl" name="homepageUrl"><br><br>
+      
+      <label for="birthMonth">Birth Month</label>
+      <input type="month" id="birthMonth" name="birthMonth"><br><br>
+      
+      <label for="birthYear">Birth Year</label>
+      <input type="number" id="birthYear" name="birthYear"><br><br>
+      
+      <label for="canEmail">Can we email you?</label>
+      <input type="checkbox" id="canEmail" name="canEmail"><br><br>
+      
+      <label>Can we text you?</label><br>
+      <input type="radio" id="canTextYes" name="canText" value="yes">
+      <label for="canTextYes">Yes</label><br>
+      <input type="radio" id="canTextNo" name="canText" value="no">
+      <label for="canTextNo">No</label><br><br>
+      
+      <label>Do you like our product?</label><br>
+      <input type="radio" id="likeProduct1" name="likeProduct" value="1">
+      <label for="likeProduct1">1 - Don't Like It</label><br>
+      <input type="radio" id="likeProduct2" name="likeProduct" value="2">
+      <label for="likeProduct2">2</label><br>
+      <input type="radio" id="likeProduct3" name="likeProduct" value="3">
+      <label for="likeProduct3">3</label><br>
+      <input type="radio" id="likeProduct4" name="likeProduct" value="4">
+      <label for="likeProduct4">4</label><br>
+      <input type="radio" id="likeProduct5" name="likeProduct" value="5">
+      <label for="likeProduct5">5 - Love It</label><br><br>
+      
+      <button type="reset">Clear</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- Reference to this page from the main page: -->
+<a href="newuser.html">New User Page</a>
